@@ -5,22 +5,26 @@
   <title>Nebeski Mir</title>
   <meta name="author" content="Nikola Vučenović">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="index.js" defer></script>
-
+ <link rel="stylesheet" href="nebeski-mir.css" />
 </head>
+
 <body>
-<form>
-  <label>Prihod:
-    <input type="number" id="prihod" value="2000"/>
-    <button id="btn-prihod" type="button">Prosledi</button>
-  </label><br><br>
-  <label>Rashod:
-    <input type="number" id="rashod" onchange="(event) => event.target.value"/>
-    <button id="btn-rashod" type="button">Prosledi</button>
-  </label><br><br>
-   <textarea placeholder="Obaveze" rows="5" cols="34"></textarea><br>
-   <button id="btn-obaveze" type="button">Prosledi</button>
-</form>
-<p id="pazar"></p>
-  </body>
+  <nav class="nav-bar">
+    <p>O NAMA</p>
+    <p>KONTAKT</p>
+    <p>USLUGE</p>
+    <p>POGREBNA OPREMA</p>
+  </nav>
+  <header class="glava">
+    <img src="slike/slika5.jpg" alt="Nebeski Mir" width="982" height="360"/>
+    <img src="slike/logo.jpg" alt="Nebeski Mir"/>
+    <img src="slike/slika1.jpg" alt="merdevine" width="500" height="345">
+  </header>
+  <aside class="glava-text">
+    <p>Kompletno sređivanje dokumentacije</p>
+    <p>Odlazak u Ambasadu</p>
+    <p>Transport do mesta sahrane i sprovod po potrebi</p>
+    <p>Raznovrsna pogrebna oprema i cvetni aranžman</p>
+  </aside>
+</body>
 </html>
