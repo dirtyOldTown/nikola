@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 .nav-bar {
-  background-color:   #D2B55B;
+  background-color:#b7a164;
   height:90px;
   display: flex;
   justify-content: flex-end;
@@ -25,20 +25,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: black;
+  background-color:black;
   padding: 1% 0;
 }
 .glava img {
   width: 32%;
   height:auto;
 }
-.glava img:first-of-type {
+/*.glava img:first-of-type {
   height: 22vw
-}
+}*/
 .glava-text {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.5em;
-  background-color: #D2B55B;
+  background-color: #b7a164;
   height: auto;
   width: 100%;
   color: black;
