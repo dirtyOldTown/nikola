@@ -53,3 +53,7 @@ body {
 .uvodne-reči p {
   padding: 10px 100px;
 }
+.hide {
+  display: none
+}
+
