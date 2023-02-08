@@ -44,3 +44,12 @@ body {
   margin-top: 0;
   padding-top: 30px;
 }
+.uvodne-reči {
+  color: wheat;
+  font-size: 1.2em;
+  text-align: center;
+  font-style: italic;
+}
+.uvodne-reči p {
+  padding: 10px 100px;
+}
