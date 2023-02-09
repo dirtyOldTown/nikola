@@ -108,6 +108,10 @@ footer {
 footer p {
   margin-top: 0;
 }
+.footer-blok p a {
+  text-decoration: none;
+  color: whitesmoke
+}
 
 
 
