@@ -1,0 +1,33 @@
+@media screen and (max-width: 992px) {
+  .nav-bar {
+    justify-content: center;
+  }
+  .nav-bar div {
+    font-size: 1.07em
+  }
+  .glava-text {
+    font-size: 1.4em;
+  }
+  .uvodne-reči {
+    font-size: 1em;
+    padding: 0 40px;
+  }
+  .uvodne-reči p {
+    margin-bottom: -10px;
+  }
+  .usluge {
+    max-width: 70%;
+    font-size: 1.4em;
+    padding: 30px 20px;
+    text-align: center
+  }
+  .o-nama {
+    font-size: 1.2em;
+  }
+  .o-nama > p {
+    width: 80%;
+  }
+  .int-prevoz, .gradska-međugradska {
+    font-size: 1.2em
+  }
+}

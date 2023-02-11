@@ -7,15 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
   <link rel="stylesheet" href="nebeski-mir.css">
+  <link rel="stylesheet" href="responsive.css">
   <script src="index.js" defer></script>
 </head>
 
 <body>
   <nav class="nav-bar">
-    <p>O NAMA</p>
-    <p>KONTAKT</p>
-    <p>USLUGE</p>
-    <p>POGREBNA OPREMA</p>
+    <div class="dekoracija"><a href="#onama">O NAMA</a></div>
+    <div class="dekoracija"><a href="#kontakt">KONTAKT</a></div>
+    <div id="usluge" class="katalog">USLUGE
+      <div>
+        <p  class="dekoracija" id="usluga-prevoz"><a href="#prevoz">Internacionalni prevoz</a></p>
+        <p  class="dekoracija" id="usluga-grad"><a href="#gradska">Gradske i međugradske sahrane</a></p>
+      </div>
+    </div>
+    <div id="oprema" class="katalog">POGREBNA OPREMA
+      <div>
+      <p id="sanduci">Sanduci</p>
+      <p id="krstovi">Krstovi</p>
+      <p id="cvetni-aranzmani">Cvetni aranžmani</p>
+    </div>
+    </div>
   </nav>
   <header>
     <h1 class="hide">Nebeski mir</h1>
@@ -41,21 +53,54 @@
     <p>Transport do mesta sahrane i sprovod po potrebi</p>
     <p>Raznovrsna pogrebna oprema i cvetni aranžman</p>
   </aside>
-  <section class="o-nama">
+  <section class="o-nama" id="onama">
     <h2>O NAMA</h2>
     <p>
-      Nebeski Mir je jedna od retkih firmi koja vrši usluge po celoj Evropi profesionalno, odgovorno, brzo i precizno. Iza nas stoji skoro 20 godina iskustva u ovom poslu.
+      Nebeski Mir je jedna od retkih firmi iz Srbije koja vrši usluge po celoj Evropi profesionalno, odgovorno, brzo i precizno. Iza nas stoji skoro 20 godina iskustva u ovom poslu.
       Imamo sjajnu saradnju sa svim ambasadama u Evropi koje nam uvek izađu u susret u kriznim situacijama.
       Naš cilj je da Vam olakšamo ovaj težak period života.
     </p>
   </section>
+  <article class="int-prevoz" id="prevoz">
+    <h3>Internacionalni prevoz</h3>
+    <p>
+      <q>Nebeski mir</q> omogućava prevoz pokojnika sa bilo kojeg mesta u Evropi nazad u Srbiju ili region.
+      Uz prevoz takođe završavamo i papirologiju neophodnu za održavanje sahrane.
+      U papirologiju spadaju podizanje tela i preuzimanje potvrde o smrti, 
+      odlazak u opštinu po izvod iz matične knjige umrlih, 
+      odlazak u sanitarnu policiju na pregled kvaliteta opreme i još jednu potvrdu doktora da je lice preminulo, 
+      dobijanje dozvole za transport tela unutar Evropske unije, odlazak u ambasadu i vađenje sprovodnice.
+      <p>Vršimo sprovode, organizujemo cvetne aranžmane i imamo široki izbor pogrebne opreme.</p>
+      <p>Dokumentacija koju Vi treba da imate pre dolaska našeg vozača su:</p>
+      <ul>
+       <li>Pasoš preminule osobe</li> 
+      <li>Izvod iz matične knjige rođenih (internacionalni)</li> 
+      <li>Izvod iz matične knjige venčanih (internacionalni)</li>
+      <li>Potvrda o grobnom mestu (po potrebi)</li>
+      </ul>
+      <p class="telefon">Za sve nedoumice možete nas kontaktirati na broj <b><a href="tel:+381615122211"> +381615122211</a></b></p>
+    </p>
+  </article>
+  <article class="gradska-međugradska" id="gradska">
+    <h3>Gradske i međugradske sahrane</h3>
+    <p>
+      <q>Nebeski mir</q> Vam takođe pruža usluge <em>gradske sahrane</em>. 
+      Mi obavljamo podizanje pokojnika u bolnici, kući ili u domu, 
+      oblačimo pokojnika po potrebi, ostavljamo pokojnika u sabirnu kapelu, 
+      vadimo izvod iz matične knjige umrlih, zakazujemo sahranu na svim 
+      gradskim i seoskim grobljima i izrađujemo plakate (parte).
+      Nebeski mir vrši usluge i <em>međugradske sahrane</em> sa sličnom papirologijom kao kod gradskih sahrana.
+      <p class="telefon">Za sve nedoumice možete nas kontaktirati na broj <b><a href="tel:+381615122211"> +381615122211</a></b></p>
+    </p>
+  </article>
   <footer>
-    <h3>&#9753;&nbsp; NEBESKI MIR &nbsp;&#10087;</h3>
-    <div class="footer-blok">
+    <h4>&#9753;&nbsp; NEBESKI MIR &nbsp;&#10087;</h4>
+    <div class="footer-blok" id="kontakt">
       <p>- &nbsp;Za sve informacije koje Vas interesuju možete nas kontaktirati.</p>
       <p>- &nbsp;Tu smo da Vam pomognemo. U najtežim trenucima sa Vama i uz Vas</p>
-      <p><span class="fa-solid fa-square-phone"></span>&nbsp;&nbsp; <a href="tel:+381615122211"> 061/ 512-22-11</a></p>
-      <p><span class="fa-solid fa-envelope"></span>&nbsp;&nbsp; <a href="mailto:pogrebnonebeskimir@gmail.com"> nebeskimir@gmail.com</a></p>
+      <p class="centriran-text"><span class="fa-solid fa-location-dot"></span>&nbsp;&nbsp; Beograd, Srbija</p>
+      <p class="centriran-text"><span class="fa-solid fa-square-phone"></span>&nbsp;&nbsp;<a href="tel:+381615122211"> 061/ 512-22-11</a></p>
+      <p class="centriran-text"><span class="fa-solid fa-envelope"></span>&nbsp;&nbsp; <a href="mailto:pogrebnonebeskimir@gmail.com"> nebeskimir@gmail.com</a></p>
   </div>
   </footer>
 </body>

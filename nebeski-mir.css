@@ -1,47 +1,85 @@
+
 body {
   background-image: url('slike/pozadina2.jpg');
-  background-size: cover;
-  margin: 0;
+  background-size: 100% 100%;
+  margin: 0
 }
 .nav-bar {
   background-color:#b7a164;
   height:80px;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-end
 }
-.nav-bar p {
+.nav-bar div {
   background-color: transparent;
   font-size: large;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   color: black;
   font-weight: bold;
-  padding: 0px 15px; 
+  padding: 10px 15px; 
+  cursor: pointer
+}
+.nav-bar div:hover {
+  color:#996600
+}
+.nav-bar div a:hover {
+  color:#996600
+}
+#sanduci:hover, #krstovi:hover, #cvetni-aranzmani:hover {
+  color:black
+}
+#usluga-prevoz:hover, #usluga-grad:hover {
+  color: black
+}
+.katalog {
+ position: relative
+}
+.dekoracija a {
+  text-decoration: none;
+  color: black
+}
+.katalog > div {
+  margin-top: 10px;
+  width:max-content;
+  position: absolute;
+  color:black;
+  background-color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  border-top:1px solid black;
+  box-shadow: 0px 4px 8px black;
+  padding: 0 10px;
+  visibility: hidden
+}
+
+.katalog > div p {
+  margin: 7px
 }
 .glava {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color:black;
-  padding: 1.7% 0;
+  padding: 1.7% 0
 }
 .glava img {
   width: 32%;
-  height:auto;
+  height:auto
 }
 .glava-text {
   font-family:Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.9em;
   background-color: #b7a164;
   color: black;
   text-align: center;
   padding: 15px 0;
   font-weight: 600;
-  margin-top: 0;
+  margin-top: 0
 }
 .glava-text p:first-of-type {
   margin-top: 0;
-  padding-top: 30px;
+  padding-top: 30px
 }
 .uvodne-reči {
   font-family:'Courier New', Courier, monospace;
@@ -49,9 +87,8 @@ body {
   font-size: 1.1em;
   text-align: center;
   font-style: italic;
-  margin-top: 50px;
+  margin-top: 50px
 }
-
 .hide {
   display: none
 }
@@ -70,47 +107,89 @@ body {
   font-size: 1.7em;
   margin-top: 50px;
   padding: 40px;
-  border-radius: 4px;
+  border-radius: 4px
 }
 .usluge p {
   margin: 0;
   padding: 5px;
 }
 .o-nama {
+  margin-top: 70px;
   color:wheat;
   text-align: center;
-  margin-top: 60px;
   font-size: 1.4em;
-  border-bottom: 50px solid #b7a164;
-  margin-bottom: 0;
+  margin-bottom: 50px
 }
 .o-nama > h2 {
   text-decoration: overline;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0
 }
 .o-nama > p {
   font-family: 'Times New Roman', Times, serif;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto
+}
+.int-prevoz, .gradska-međugradska {
+  background-color: #b7a164;
+  padding: 5px 20px 10px 20px;
+  font-size: 1.3em
+}
+.int-prevoz h3, .gradska-međugradska h3 {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.int-prevoz, .gradska-međugradska {
+  margin-bottom: 25px
+}
+.int-prevoz p:nth-of-type(3) {
+  display: inline-block;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 0
+}
+.int-prevoz p:nth-of-type(3) {
+  margin-top: 0;
+  margin-bottom: 0
+}
+.telefon a {
+  color: #483c32;
+}
+.telefon a:hover {
+  color: brown
 }
 footer {
-  margin-top: -17px;
   background-color: black;
-  color: whitesmoke;
+  color: wheat;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.1em;
+  font-size: 1.1em
+}
+footer h4 {
+  border-bottom: 1px solid wheat;
+  padding-top: 50px
 }
 footer p {
   margin-top: 0;
 }
 .footer-blok p a {
   text-decoration: none;
-  color: whitesmoke
+  color: wheat
 }
+.footer-blok a:hover {
+  text-decoration: underline;
+  color: brown
+}
+.centriran-text {
+  text-align: center;
+}
+
+
+
 
 
 
