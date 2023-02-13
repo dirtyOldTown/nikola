@@ -5,18 +5,23 @@
   <title>Nebeski Mir</title>
   <meta name="author" content="Nikola Vučenović">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
   <link rel="stylesheet" href="nebeski-mir.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Graduate">
+  <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
   <script src="index.js" defer></script>
 </head>
 
 <body>
+  <nav class="nav-mobilni hide">
+    <p>N<span id="slovo-m">M</span></p>
+    <p id="nav-regulator">&#9776;</p>
+  </nav>
   <nav class="nav-bar">
     <div class="dekoracija"><a href="#onama">O NAMA</a></div>
     <div class="dekoracija"><a href="#kontakt">KONTAKT</a></div>
     <div id="usluge" class="katalog">USLUGE
-      <div>
+      <div class="zindex">
         <p  class="dekoracija" id="usluga-prevoz"><a href="#prevoz">Internacionalni prevoz</a></p>
         <p  class="dekoracija" id="usluga-grad"><a href="#gradska">Gradske i međugradske sahrane</a></p>
       </div>
@@ -32,9 +37,9 @@
   <header>
     <h1 class="hide">Nebeski mir</h1>
     <div class="glava">
-      <img src="slike/slika2.jpg" alt="Nebeski Mir" width="450" height="311">
-      <img src="slike/logo.jpg" alt="Nebeski Mir" width="450" height="311">
-      <img src="slike/slika1P.jpg" alt="merdevine" width="450" height="311">
+      <img src="slike/slika2.jpg" alt="Ptica u letu" width="450" height="311">
+      <img src="slike/logo.jpg" alt="Logo" width="450" height="311">
+      <img src="slike/slika1P.jpg" alt="Ruka polaže cvet na spomenik" width="450" height="311">
     </div>
     <div class="glava-text">
       <p>INTERNACIONALNI PREVOZ</p>
@@ -50,8 +55,8 @@
   <aside class="usluge">
     <p>Kompletno sređivanje dokumentacije</p>
     <p>Odlazak u Ambasadu</p>
-    <p>Transport do mesta sahrane i sprovod po potrebi</p>
-    <p>Raznovrsna pogrebna oprema i cvetni aranžman</p>
+    <p>Transport do mesta sahrane i&nbsp;sprovod po potrebi</p>
+    <p>Raznovrsna pogrebna oprema i&nbsp;cvetni aranžman</p>
   </aside>
   <section class="o-nama" id="onama">
     <h2>O NAMA</h2>
@@ -69,18 +74,19 @@
       U papirologiju spadaju podizanje tela i preuzimanje potvrde o smrti, 
       odlazak u opštinu po izvod iz matične knjige umrlih, 
       odlazak u sanitarnu policiju na pregled kvaliteta opreme i još jednu potvrdu doktora da je lice preminulo, 
-      <p>
       dobijanje dozvole za transport tela unutar Evropske unije, odlazak u ambasadu i vađenje sprovodnice.
-      <p>Vršimo sprovode, organizujemo cvetne aranžmane i imamo široki izbor pogrebne opreme.</p>
-      <p>Dokumentacija koju Vi treba da imate pre dolaska našeg vozača su:</p>
-      <ul>
-       <li>Pasoš preminule osobe</li> 
+    </p>
+    <p>Vršimo sprovode, organizujemo cvetne aranžmane i imamo široki izbor pogrebne opreme.</p>
+    <div class="dokumenta">
+    <p><span class="hide mobilni">Potrebna dokumentacija:</span><span class="laptop">Dokumentacija koju Vi treba da imate pre dolaska našeg vozača su:</span></p>
+    <ul>
+      <li>Pasoš preminule osobe</li> 
       <li>Izvod iz matične knjige rođenih (internacionalni)</li> 
       <li>Izvod iz matične knjige venčanih (internacionalni)</li>
       <li>Potvrda o grobnom mestu (po potrebi)</li>
-      </ul>
-      <p class="telefon">Za sve nedoumice možete nas kontaktirati na broj <b><a href="tel:+381615122211"> +381615122211</a></b></p>
-   
+    </ul>
+    <p class="telefon">Za sve nedoumice možete nas kontaktirati na broj <b><a href="tel:+381615122211"> +381615122211</a></b></p>
+    </div>
   </article>
   <article class="gradska-međugradska" id="gradska">
     <h3>Gradske i međugradske sahrane</h3>
@@ -91,7 +97,7 @@
       vadimo izvod iz matične knjige umrlih, zakazujemo sahranu na svim 
       gradskim i seoskim grobljima i izrađujemo plakate (parte).
     </p>
-      Nebeski mir vrši usluge i <em>međugradske sahrane</em> sa sličnom papirologijom kao kod gradskih sahrana.
+    <p>Nebeski mir vrši usluge i <em>međugradske sahrane</em> sa sličnom papirologijom kao kod gradskih sahrana.</p>
       <p class="telefon">Za sve nedoumice možete nas kontaktirati na broj <b><a href="tel:+381615122211"> +381615122211</a></b></p>
   </article>
   <footer>

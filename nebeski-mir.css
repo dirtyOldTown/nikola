@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('slike/pozadina2.jpg');
+  background-image: url('slike/pozadina.jpg');
   background-size: 100% 100%;
   margin: 0
 }
@@ -9,7 +9,24 @@ body {
   height:80px;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end
+  align-items: flex-end;
+}
+.nav-mobilni {
+  background-color:#b7a164;
+  height:70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.7em;
+  font-weight: 600;
+  color:#483c32;
+}
+.nav-mobilni p:first-of-type {
+  font-family: 'Graduate';
+  font-weight: 400;
+}
+#slovo-m {
+  color:#996600
 }
 .nav-bar div {
   background-color: transparent;
@@ -52,7 +69,6 @@ body {
   padding: 0 10px;
   visibility: hidden
 }
-
 .katalog > div p {
   margin: 7px
 }
@@ -65,8 +81,17 @@ body {
 }
 .glava img {
   width: 32%;
-  height:auto
+  height:auto;
 }
+.glava img:first-of-type {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.glava img:last-of-type {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
 .glava-text {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 1.9em;
@@ -75,7 +100,10 @@ body {
   text-align: center;
   padding: 15px 0;
   font-weight: 600;
-  margin-top: 0
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 .glava-text p:first-of-type {
   margin-top: 0;
@@ -90,7 +118,10 @@ body {
   margin-top: 50px
 }
 .hide {
-  display: none
+  display: none;
+}
+.visible {
+  display: block;
 }
 .usluge {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -134,7 +165,10 @@ body {
 .int-prevoz, .gradska-međugradska {
   background-color: #b7a164;
   padding: 5px 20px 10px 20px;
-  font-size: 1.3em
+  font-size: 1.3em;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .int-prevoz h3, .gradska-međugradska h3 {
   text-align: center;
@@ -143,7 +177,16 @@ body {
 .int-prevoz, .gradska-međugradska {
   margin-bottom: 25px
 }
-.int-prevoz p:nth-of-type(3) {
+.dokumenta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dokumenta p:last-of-type {
+  text-align: center;
+}
+.dokumenta  p:first-of-type {
   display: inline-block;
   font-weight: 600;
   border-bottom: 2px solid black;
@@ -153,6 +196,9 @@ body {
 .int-prevoz p:nth-of-type(3) {
   margin-top: 0;
   margin-bottom: 0
+}
+.gradska-međugradska p:last-of-type {
+ text-align: center;
 }
 .telefon a {
   color: #483c32;
@@ -187,7 +233,6 @@ footer p {
 .centriran-text {
   text-align: center;
 }
-
 
 
 
