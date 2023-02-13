@@ -44,7 +44,6 @@ function navBarZaMobilni(x) {
    if (x.matches) {
       navMobilni.classList.remove("hide");
       navLaptop.style.visibility = "hidden";
-   
    } else {
       navMobilni.classList.add("hide");
       navLaptop.classList.remove("hide");
@@ -62,6 +61,8 @@ navRegulator.addEventListener("click", () => {
    } else {
       navLaptop.style.visibility = "hidden";
       navLaptop.classList.remove("nav-bar-animacija");
+      listaOpreme.style.visibility = "hidden";
+      listaUsluga.style.visibility = "hidden";
    }
 });
 

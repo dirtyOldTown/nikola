@@ -57,19 +57,23 @@
     background-color: white;
     font-size: 1em;
     border-top:1px solid black;
-    box-shadow: 0px 4px 8px black;
     padding: 0 10px;
     visibility: hidden;
   }
   #usluge > div {
-    top: -60px;
+    top: -70px;
   }
   #oprema > div {
-    top: -90px;
+    top: -115px;
   }
   .zindex {
-    top: 30px;
     z-index: 1;
+  }
+  .zindex p:first-of-type {
+    margin-bottom: 15px;
+  }
+  #krstovi, #sanduci {
+    margin-bottom: 15px;
   }
   .glava {
     flex-direction: column;
@@ -108,6 +112,12 @@
   }
   .usluge p {
     padding: 10px 5px;
+  }
+  .o-nama {
+    font-size: 1.17em;
+  }
+  .int-prevoz, .gradska-međugradska {
+    font-size: 1.15em
   }
   .footer-blok p:nth-of-type(1), .footer-blok p:nth-of-type(2) {
    text-align: center;
