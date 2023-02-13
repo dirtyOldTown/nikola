@@ -58,11 +58,13 @@ navRegulator.addEventListener("click", () => {
    if (navLaptop.style.visibility == "hidden") {
       navLaptop.style.visibility = "visible";
       navLaptop.classList.add("nav-bar-animacija");
+      navRegulator.style.color = "#996600";
    } else {
       navLaptop.style.visibility = "hidden";
       navLaptop.classList.remove("nav-bar-animacija");
       listaOpreme.style.visibility = "hidden";
       listaUsluga.style.visibility = "hidden";
+      navRegulator.style.color = "#1B1B1B";
    }
 });
 

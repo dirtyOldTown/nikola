@@ -135,6 +135,9 @@
   .dokumenta p:last-of-type {
      margin-top: 5px;
   }
+  .int-prevoz h3, .gradska-međugradska h3 {
+    font-size: 1em
+  }
   .gradska-međugradska p {
     text-align: center;
   }

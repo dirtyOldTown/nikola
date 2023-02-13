@@ -19,7 +19,7 @@ body {
   align-items: center;
   font-size: 1.7em;
   font-weight: 600;
-  color:#483c32;
+  color: #1B1B1B;
 }
 .nav-mobilni p:first-of-type {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -76,7 +76,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color:black;
+  background-color: black;
   padding: 1.7% 0
 }
 .glava img {
@@ -171,6 +171,7 @@ body {
   margin-right: auto;
 }
 .int-prevoz h3, .gradska-međugradska h3 {
+  font-size: 1.1em;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
 }
