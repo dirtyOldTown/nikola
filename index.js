@@ -68,30 +68,8 @@ navRegulator.addEventListener("click", () => {
    }
 });
 
-/*let imgElement = document.querySelector(".glava img:first-of-type");
-let imgElement2 = document.querySelector(".glava img:last-of-type");
-let slikeSrc = ["slike/slika2.jpg", "slike/slika1P.jpg"];
-let slikeSrc2 = ["slike/slika1P.jpg", "slike/slika2.jpg"];
-function promenaParametara(img, src) {
-   if ( img.style.opacity == 1) {
-      img.style.opacity = 0;
-   }
-   setTimeout(() => {
-      if ( img.style.opacity == 0) {
-         imgElement.style.opacity = 1;
-      }
-     img.src = src[1]
-    }, 700);
-    src.reverse()
-}
-let timer = setTimeout(function slideShow() {
-   promenaParametara(imgElement, slikeSrc);
-   timer = setTimeout(slideShow, 7000)
- });
- let timer2 = setTimeout(function slideShow2() {
-   promenaParametara(imgElement2, slikeSrc2);
-   timer2 = setTimeout(slideShow2, 7000)
- })*/
+
+
 
 
 

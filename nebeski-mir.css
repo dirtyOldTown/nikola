@@ -86,7 +86,7 @@ body {
   opacity: 1;
   transition: opacity 1s;
 }
-.glava img:last-of-type {
+#cvet {
   opacity: 1;
   transition: opacity 1s;
 }
@@ -95,7 +95,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 1.9em;
   background-color: #b7a164;
-  color: black;
+  color: #1B1B1B;
   text-align: center;
   padding: 15px 0;
   font-weight: 600;
@@ -170,6 +170,7 @@ body {
   margin-right: auto;
 }
 .int-prevoz h3, .gradska-međugradska h3 {
+  color: #1B1B1B;
   font-size: 1.1em;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
