@@ -84,11 +84,13 @@ body {
 }
 .glava img:first-of-type {
   opacity: 1;
-  transition: opacity 1s;
+  animation-name: slide;
+  animation-duration: 8s;
 }
 #cvet {
   opacity: 1;
-  transition: opacity 1s;
+  animation-name: slide;
+  animation-duration: 8s;
 }
 .glava-text {
   font-family:Arial, Helvetica, sans-serif;
@@ -229,7 +231,13 @@ footer p {
 .centriran-text {
   text-align: center;
 }
-
+/*animacija*/
+@keyframes slide {
+  0% {opacity: 1}
+  75% {opacity: 1}
+  80% {opacity: 0}
+  100% {opacity: 1}
+}
 
 
 
