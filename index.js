@@ -84,7 +84,10 @@ function slajd() {
       slika2.style.opacity = 1
    }, 1000);
 }
-setInterval(slajd, 9000)
+let timer = setTimeout(function prikaziSlajd() {
+   slajd();
+   timer = setTimeout(prikaziSlajd, 9000)
+}, 8000);
 
 
 
