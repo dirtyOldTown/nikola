@@ -83,6 +83,8 @@ function slajd() {
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
    }, 700);
+   slika1.style.opacity = 0;
+   slika2.style.opacity = 0;
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
