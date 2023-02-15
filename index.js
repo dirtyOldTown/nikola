@@ -78,19 +78,21 @@ function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
    setTimeout(() => {
-      slika1.src = slikeSrc[1];
-      slika2.src = slikeSrc2[1]
       slika1.style.opacity = 1;
-      slika2.style.opacity = 1
+      slika2.style.opacity = 1;
+      slika1.src = slikeSrc[1];
+      slika2.src = slikeSrc2[1];
    }, 980);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
-   timer = setTimeout(prikaziSlajd, 8000)
-}, 7000);
+   timer = setTimeout(prikaziSlajd, 9000)
+}, 8000);
 
-
-
+let muzika = document.getElementById("muzika");
+document.body.addEventListener("click", () => {
+   muzika.play()
+});
 
 
    
