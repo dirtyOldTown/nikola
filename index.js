@@ -80,11 +80,9 @@ function slajd() {
    setTimeout(() => {
      slika1.src = slikeSrc[1];
      slika2.src = slikeSrc2[1];
-     slika1.style.opacity = 1;
-     slika2.style.opacity = 1;
-   }, 700);
-   slika1.style.opacity = 0;
-   slika2.style.opacity = 0;
+     slika1.style.opacity = 0;
+     slika2.style.opacity = 0;
+   }, 800);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
