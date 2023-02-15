@@ -82,7 +82,7 @@ function slajd() {
       slika2.src = slikeSrc2[1]
       slika1.style.opacity = 1;
       slika2.style.opacity = 1
-   }, 900);
+   }, 1000);
 }
 setInterval(slajd, 9000)
 
