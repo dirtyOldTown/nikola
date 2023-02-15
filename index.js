@@ -84,7 +84,7 @@ function slajd() {
       slika2.style.opacity = 1
    }, 900);
 }
-setInterval(slajd, 8000)
+setInterval(slajd, 9000)
 
 
 
