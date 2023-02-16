@@ -104,7 +104,7 @@ volumeIcon.addEventListener("click", () => {
       sviraMuzika = false;
       ambijentalnaMuzika.pause()
    }
-})
+});
 
 
 

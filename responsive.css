@@ -12,7 +12,7 @@
     font-size: 1em;
     padding: 0 40px;
   }
-  .uvodne-reči p {
+  .uvodne-reči p  {
     margin-bottom: -10px;
   }
   .usluge {
@@ -45,6 +45,10 @@
    width: 100%;
    border-top: 3px solid #996600;
    transition: height 0.7s, visibility 0.7s;
+  }
+  #slovo-m, #slovo-n {
+    font-family: 'Ewert', cursive;
+    font-size: 1.3em;
   }
   .nav-bar-animacija {
     height:200px;
@@ -125,6 +129,10 @@
   }
 }
 @media screen and (max-width: 400px) {
+  #slovo-m, #slovo-n {
+    font-family: 'Ewert', cursive;
+    font-size: 1.2em;
+  }
   .glava-text {
     font-size: 1.05em;
     font-weight: 600;
