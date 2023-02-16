@@ -89,10 +89,24 @@ let timer = setTimeout(function prikaziSlajd() {
    timer = setTimeout(prikaziSlajd, 9000)
 }, 8000);
 
-let muzika = document.getElementById("muzika");
-document.body.addEventListener("click", () => {
-   muzika.play()
-});
+let ambijentalnaMuzika = document.getElementById("muzika");
+let volumeIcon = document.querySelector("#volume");
+let sviraMuzika = false;
+let play = 'fas fa-volume-up';
+let mute = 'fas fa-volume-down';
+volumeIcon.addEventListener("click", () => {
+   if (!sviraMuzika) {
+      volumeIcon.setAttribute("class",play);
+      sviraMuzika = true;
+      ambijentalnaMuzika.play()
+   } else {
+      volumeIcon.setAttribute("class", mute);
+      sviraMuzika = false;
+      ambijentalnaMuzika.pause()
+   }
+})
+
+
 
 
    
