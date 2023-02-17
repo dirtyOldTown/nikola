@@ -173,6 +173,7 @@ body {
   font-size: 1.1em;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 .int-prevoz, .gradska-međugradska {
   margin-bottom: 25px
