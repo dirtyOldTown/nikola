@@ -47,7 +47,7 @@
    transition: height 0.7s, visibility 0.7s;
   }
   #slovo-m, #slovo-n {
-    font-family: 'Ewert', cursive;
+    font-family:'Lucida Calligraphy', cursive;
     font-size: 1.3em;
   }
   .nav-bar-animacija {
