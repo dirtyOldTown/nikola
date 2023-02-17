@@ -20,12 +20,15 @@ body {
   font-weight: 600;
   color: #1B1B1B;
 }
-.nav-mobilni p:first-of-type {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#slovo-m {
+  color:#996600;
+  font-family:'Ewert', cursive;
   font-weight: 400;
 }
-#slovo-m {
-  color:#996600
+#slovo-n {
+  color: #1B1B1B;
+  font-family:'Ewert', cursive;
+  font-weight: 400;
 }
 .nav-bar div {
   background-color: transparent;
