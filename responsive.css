@@ -69,7 +69,8 @@
     top: -70px;
   }
   #oprema > div {
-    top: -110px;
+    top: 0;
+    left: 185px
   }
   .zindex {
     z-index: 1;
@@ -77,8 +78,8 @@
   .zindex p:first-of-type {
     margin-bottom: 15px;
   }
-  #krstovi, #sanduci {
-    margin-bottom: 15px;
+  #katalog {
+    margin-bottom: 8px
   }
   .glava {
     flex-direction: column;
