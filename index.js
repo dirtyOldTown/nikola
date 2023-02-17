@@ -75,16 +75,14 @@ let slika2 = document.querySelector(".glava img:last-of-type");
 function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
-   setTimeout(() => {
-      slikeSrc.reverse()
-      slikeSrc2.reverse()
-   });
+      slikeSrc.reverse();
+      slikeSrc2.reverse();
    setTimeout(() => {
      slika1.src = slikeSrc[1];
      slika2.src = slikeSrc2[1];
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
-   }, 850);
+   }, 950);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
