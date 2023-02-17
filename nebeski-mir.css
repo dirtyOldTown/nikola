@@ -42,8 +42,12 @@ body {
 .nav-bar div a:hover {
   color:#996600
 }
-#sanduci:hover, #krstovi:hover, #cvetni-aranzmani:hover {
-  color:black
+#katalog a {
+  color:black;
+  text-decoration: none;
+}
+#katalog a:hover {
+  color:#996600
 }
 #usluga-prevoz:hover, #usluga-grad:hover {
   color: black
