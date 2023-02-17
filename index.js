@@ -75,8 +75,10 @@ let slika2 = document.querySelector(".glava img:last-of-type");
 function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
-   slikeSrc.reverse();
-   slikeSrc2.reverse()
+   setTimeout(() => {
+      slikeSrc.reverse()
+      slikeSrc2.reverse()
+   });
    setTimeout(() => {
      slika1.src = slikeSrc[1];
      slika2.src = slikeSrc2[1];
