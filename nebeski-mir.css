@@ -1,8 +1,7 @@
 
 body {
-  background: url('slike/pozadina.jpg');
-  background-size: contain;
-  background-position: center;
+  background: url('slike/poz10.jpg');
+  background-size: cover;
   background-attachment: fixed;
   margin: 0
 }
