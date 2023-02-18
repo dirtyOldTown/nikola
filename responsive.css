@@ -33,7 +33,7 @@
 }
 @media screen and (max-width: 600px) {
   body {
-    background-attachment: fixed;
+   background-attachment: scroll;
   }
   .nav-bar {
    flex-direction: column;
