@@ -1,10 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: url('slike/pozadina.webp');
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
   margin: 0
 }
 .nav-bar {

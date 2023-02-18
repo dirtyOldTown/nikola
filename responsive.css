@@ -32,6 +32,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  body {
+    background-attachment: fixed;
+  }
   .nav-bar {
    flex-direction: column;
    font-size: 0.9em;
