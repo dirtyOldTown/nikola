@@ -1,6 +1,7 @@
 body {
   background-image: url('slike/pozadina.webp');
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: repeat;
   background-attachment: fixed;
   margin: 0
 }
