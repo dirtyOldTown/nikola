@@ -3,8 +3,7 @@
 }
 body {
   background: url('slike/pozadina.webp');
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
   background-attachment: fixed;
   margin: 0
 }
