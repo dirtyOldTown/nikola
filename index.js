@@ -68,20 +68,20 @@ navRegulator.addEventListener("click", () => {
    }
 });
 
-let slikeSrc = ["slike/slika3.jpg", "slike/slika2.jpg"];
-let slikeSrc2 = ["slike/slika4.jpg", "slike/slika1.jpg"];
+let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
+let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
 let slika1 = document.querySelector(".glava img:first-of-type");
 let slika2 = document.querySelector(".glava img:last-of-type");
 function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
-      slikeSrc.reverse();
-      slikeSrc2.reverse();
    setTimeout(() => {
      slika1.src = slikeSrc[1];
      slika2.src = slikeSrc2[1];
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
+     slikeSrc.reverse();
+     slikeSrc2.reverse();
    }, 950);
 }
 let timer = setTimeout(function prikaziSlajd() {
