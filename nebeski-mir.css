@@ -1,6 +1,7 @@
 body {
   background-image: url('slike/pozadina.webp');
   background-size: cover;
+  background-attachment: fixed;
   margin: 0
 }
 .nav-bar {
