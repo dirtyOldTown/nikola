@@ -94,11 +94,11 @@ body {
 }
 .glava img:first-of-type {
   opacity: 1;
-  transition: opacity 0.8s;
+  transition: opacity 0.9s;
 }
 #cvet {
   opacity: 1;
-  transition: opacity 0.8s;
+  transition: opacity 0.9s;
 }
 .glava-text {
   font-family:Arial, Helvetica, sans-serif;
