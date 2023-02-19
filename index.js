@@ -80,11 +80,9 @@ function slajd() {
      slika2.src = slikeSrc2[1];
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
-     slika1.style.transition = 'opacity 1s';
-     slika2.style.transition = 'opacity 1s'
      slikeSrc.reverse();
      slikeSrc2.reverse();
-   }, 980);
+   }, 960);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
