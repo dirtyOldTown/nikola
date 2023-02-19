@@ -75,6 +75,8 @@ let slika2 = document.querySelector(".glava img:last-of-type");
 function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
+   slika1.style.transition = 'opacity 1s';
+   slika2.style.transition = 'opacity 1s'
    setTimeout(() => {
      slika1.src = slikeSrc[1];
      slika2.src = slikeSrc2[1];
@@ -82,7 +84,7 @@ function slajd() {
      slika2.style.opacity = 1;
      slikeSrc.reverse();
      slikeSrc2.reverse();
-   }, 990);
+   }, 980);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
