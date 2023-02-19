@@ -82,7 +82,7 @@ function slajd() {
      slika2.style.opacity = 1;
      slikeSrc.reverse();
      slikeSrc2.reverse();
-   }, 990);
+   }, 900);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
