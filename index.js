@@ -67,9 +67,12 @@ navRegulator.addEventListener("click", () => {
       navRegulator.style.color = "#1B1B1B";
    }
 });
-
-let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
-let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
+let img1 = "slike/slika2.jpg";
+let img2 = "slike/slika3.jpg";
+let img3 = "slike/slika1.jpg";
+let img4 = "slike/slika4.jpg";
+let slikeSrc = [img1, img2];
+let slikeSrc2 = [img3, img4];
 let slika1 = document.querySelector(".glava img:first-of-type");
 let slika2 = document.querySelector(".glava img:last-of-type");
 function slajd() {
@@ -82,7 +85,7 @@ function slajd() {
      slika2.style.opacity = 1;
      slikeSrc.reverse();
      slikeSrc2.reverse();
-   }, 900);
+   }, 970);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
