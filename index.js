@@ -76,15 +76,15 @@ function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
    setTimeout(() => {
-      slika1.style.opacity = 1;
-      slika2.style.opacity = 1;
      slika1.src = slikeSrc[1];
      slika2.src = slikeSrc2[1];
+     slika1.style.opacity = 1;
+     slika2.style.opacity = 1;
    }, 900);
    setTimeout(() => {
       slikeSrc.reverse();
       slikeSrc2.reverse();
-   }, 900);
+   }, 1000);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
