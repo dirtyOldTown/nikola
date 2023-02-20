@@ -80,13 +80,15 @@ function slajd() {
      slika2.src = slikeSrc2[1];
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
-     slikeSrc.reverse();
-     slikeSrc2.reverse();
-   }, 970);
+   }, 900);
+   setTimeout(() => {
+      slikeSrc.reverse();
+      slikeSrc2.reverse();
+   }, 900);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd();
-   timer = setTimeout(prikaziSlajd, 9000)
+   timer = setTimeout(prikaziSlajd, 8000)
 }, 8000);
 
 let ambijentalnaMuzika = document.getElementById("muzika");
