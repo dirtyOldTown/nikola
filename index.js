@@ -90,7 +90,7 @@ let timer = setTimeout(function prikaziSlajd() {
    slajd();
    timer = setTimeout(prikaziSlajd, 8000)
 }, 8000);
-
+let proba = 0;
 let ambijentalnaMuzika = document.getElementById("muzika");
 let volumeIcon = document.querySelector("#volume");
 let sviraMuzika = false;
