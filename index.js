@@ -83,11 +83,13 @@ function slajd() {
      slika2.style.transition = 'opacity 0.8s';
      slika1.src = slikeSrc[1];
      slika2.src = slikeSrc2[1];
+     slikeSrc.reverse();
+     slikeSrc2.reverse();
    }, 800);
-   setTimeout(() => {
+   /*setTimeout(() => {
       slikeSrc.reverse();
       slikeSrc2.reverse();
-   }, 800);
+   }, 800);*/
 }
 setInterval(slajd, 7000)
 
