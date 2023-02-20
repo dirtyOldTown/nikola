@@ -84,12 +84,10 @@ function slajd() {
    setTimeout(() => {
       slikeSrc.reverse();
       slikeSrc2.reverse();
-   }, 910);
+   }, 900);
 }
-let timer = setTimeout(function prikaziSlajd() {
-   slajd();
-   timer = setTimeout(prikaziSlajd, 8000)
-}, 8000);
+setInterval(slajd, 7000)
+
 let ambijentalnaMuzika = document.getElementById("muzika");
 let volumeIcon = document.querySelector("#volume");
 let sviraMuzika = false;
