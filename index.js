@@ -72,10 +72,9 @@ let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
 let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
 let slika1 = document.querySelector(".glava img:first-of-type");
 let slika2 = document.querySelector(".glava img:last-of-type");
-
+slika1.style.transition = 'all 0.8s';
+slika2.style.transition = 'all 0.8s';
 function slajd() {
-   slika1.style.transition = 'all 0.8s easy-in';
-   slika2.style.transition = 'all 0.8s easy-in';
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
    setTimeout(() => {
