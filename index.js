@@ -76,9 +76,9 @@ let slika2 = document.querySelector(".glava img:last-of-type");
 function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
-   slika1.style.transition = 'opacity 0.8s';
-   slika2.style.transition = 'opacity 0.8s';
    setTimeout(() => {
+     slika2.style.transition = 'opacity 0.8s ease-in-out';
+     slika2.style.transition = 'opacity 0.8s ease-in-out';
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
      slika1.src = slikeSrc[1];
