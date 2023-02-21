@@ -27,8 +27,8 @@
   .o-nama > p {
     width: 80%;
   }
-  .int-prevoz, .gradska-međugradska {
-    font-size: 1.2em
+  .int-prevoz img, .gradska-međugradska img {
+    width: 20%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -130,6 +130,9 @@
   .int-prevoz, .gradska-međugradska {
     font-size: 1.15em
   }
+  .int-prevoz img, .gradska-međugradska img {
+    width: 45%;
+  }
   .footer-blok p:nth-of-type(1), .footer-blok p:nth-of-type(2) {
    text-align: center;
   }
@@ -150,10 +153,17 @@
   .dokumenta p:last-of-type {
      margin-top: 5px;
   }
-  .int-prevoz h3, .gradska-međugradska h3 {
-    font-size: 1em
+  .int-prevoz img, .gradska-međugradska img {
+    width: 100%;
+    margin-bottom: 20px;
   }
-  .gradska-međugradska p {
+  .int-prevoz p:nth-of-type(1), .int-prevoz p:nth-of-type(2) {
+    text-align: center;
+  }
+  .int-prevoz h3, .gradska-međugradska h3 {
+    font-size: 1em;
+  }
+  #cvece {
     text-align: center;
   }
 }
