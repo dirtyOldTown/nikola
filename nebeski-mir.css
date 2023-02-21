@@ -197,6 +197,9 @@ body {
   height: auto;
   border: 2px solid #1B1B1B
 }
+.gradska-međugradska img {
+  border: 0
+}
 #cvece {
   text-align: start;
 }
