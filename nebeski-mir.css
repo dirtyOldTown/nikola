@@ -236,7 +236,7 @@ body {
 }
 footer {
   background-color:  #1B1B1B;
-  color: wheat;
+  color: #FFFFCC;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -257,7 +257,7 @@ footer {
 footer h4 {
   font-size: 1.15em;
   padding-top: 40px;
-  color:#b7a164
+  color:#E2CA76
 }
 footer p {
   margin-top: 0;
