@@ -185,7 +185,6 @@ body {
   background-color: #1B1B1B;
   color:#b7a164;
   padding: 17px 5px;
-  border: 1px solid #1B1B1B
 }
 .int-prevoz, .gradska-međugradska {
   margin-bottom: 25px
@@ -197,9 +196,6 @@ body {
   margin-bottom: 0px;
   height: auto;
   border: 1px solid #1B1B1B
-}
-.gradska-međugradska img {
-  border: 2px solid #1B1B1B
 }
 #cvece {
   text-align: start;
@@ -259,8 +255,9 @@ footer {
   color:#996600
 }
 footer h4 {
-  border-bottom: 1px solid wheat;
-  padding-top: 50px
+  font-size: 1.15em;
+  padding-top: 40px;
+  color:#b7a164
 }
 footer p {
   margin-top: 0;
