@@ -77,8 +77,8 @@ function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
    setTimeout(() => {
-     slika2.style.transition = 'opacity 0.8s ease-in-out';
-     slika2.style.transition = 'opacity 0.8s ease-in-out';
+     slika2.style.transition = 'all 0.8s';
+     slika2.style.transition = 'all 0.8s';
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
      slika1.src = slikeSrc[1];
