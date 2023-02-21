@@ -132,7 +132,6 @@
   }
   .int-prevoz img, .gradska-međugradska img {
     width: 45%;
-    border: 0;
   }
   footer h4 {
     padding-top: 20px;
@@ -178,5 +177,10 @@
   }
   footer h4 {
     padding-top: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .int-prevoz h3, .gradska-međugradska h3 {
+    font-size: 5.5vw;
   }
 }
