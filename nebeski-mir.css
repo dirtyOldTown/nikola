@@ -247,6 +247,16 @@ footer {
   font-size: 1.1em;
   clear: both;
 }
+#gore {
+  font-size: 1.7em;
+  align-self: flex-end;
+}
+#gore a {
+  color:wheat;
+}
+#gore a:hover {
+  color:#996600
+}
 footer h4 {
   border-bottom: 1px solid wheat;
   padding-top: 50px

@@ -39,15 +39,17 @@ mediaHandler.addEventListener("change", promenaTeksta);
 const mediaHandler2 = window.matchMedia('screen and (max-width: 600px)');
 const navMobilni = document.querySelector(".nav-mobilni");
 const navLaptop = document.querySelector(".nav-bar");
-
+const navBarLink = document.querySelector("#gore a");
 function navBarZaMobilni(x) {
    if (x.matches) {
       navMobilni.classList.remove("hide");
       navLaptop.style.visibility = "hidden";
+      navBarLink.setAttribute("href", "#nav-mob");
    } else {
       navMobilni.classList.add("hide");
       navLaptop.classList.remove("hide");
       navLaptop.style.visibility = "visible";
+      navBarLink.setAttribute("href", "#nav");
    }
 }
 navBarZaMobilni(mediaHandler2);
@@ -124,6 +126,9 @@ for (let item of anchorlinks) { // relitere
         e.preventDefault()
     })
 }
+
+
+
 
 
 
