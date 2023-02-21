@@ -89,7 +89,10 @@ function slajd() {
       slikeSrc2.reverse();
    }, 800);
 }
-setInterval(slajd, 7000)
+let timer = setTimeout(function prikaziSlajd() {
+   slajd()
+   timer = setTimeout(prikaziSlajd, 7000)
+}, 7000);
 
 let ambijentalnaMuzika = document.getElementById("muzika");
 let volumeIcon = document.querySelector("#volume");
