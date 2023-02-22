@@ -86,7 +86,7 @@ function slajd() {
       slika2.src = slikeSrc2[1];
       slikeSrc.reverse();
       slikeSrc2.reverse();
-   }, 700);
+   }, 900);
 }
 let timer = setTimeout(function prikaziSlajd() {
    slajd()
