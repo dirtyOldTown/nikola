@@ -82,10 +82,10 @@ function slajd() {
    setTimeout(() => {
      slika1.style.opacity = 1;
      slika2.style.opacity = 1;
-     slika1.src = slikeSrc[1];
-     slika2.src = slikeSrc2[1];
    }, 800);
    setTimeout(() => {
+      slika1.src = slikeSrc[1];
+      slika2.src = slikeSrc2[1];
       slikeSrc.reverse();
       slikeSrc2.reverse();
    }, 800);
@@ -102,7 +102,7 @@ let play = 'fas fa-volume-up';
 let mute = 'fas fa-volume-down';
 volumeIcon.addEventListener("click", () => {
    if (!sviraMuzika) {
-      volumeIcon.setAttribute("class",play);
+      volumeIcon.setAttribute("class", play);
       sviraMuzika = true;
       ambijentalnaMuzika.play()
    } else {
