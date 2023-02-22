@@ -126,6 +126,8 @@ for (let item of anchorlinks) { // relitere
         e.preventDefault()
     })
 }
+let idiGore = document.querySelector("#gore a > span");
+idiGore.innerHTML = "";
 
 
 
