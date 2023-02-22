@@ -127,7 +127,10 @@ for (let item of anchorlinks) { // relitere
     })
 }
 
-
+let idiGore = document.querySelector("#gore a");
+let fontAwasome = document.querySelector("#gore i");
+idiGore.style.visibility = "hidden";
+fontAwasome.style.visibility = "visible";
 
 
 
