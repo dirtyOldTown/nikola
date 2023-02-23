@@ -74,8 +74,8 @@ let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
 let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
 let slika1 = document.querySelector(".glava img:first-of-type");
 let slika2 = document.querySelector(".glava img:last-of-type");
-slika1.style.transition = 'all 1.2s';
-slika2.style.transition = 'all 1.2s';
+slika1.style.transition = 'all 1s';
+slika2.style.transition = 'all 1s';
 function slajd() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
