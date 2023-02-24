@@ -70,17 +70,14 @@ navRegulator.addEventListener("click", () => {
    }
 });
 
-var images = [];
+let images = [];
 function preload() {
-   for (var i = 0; i < arguments.length; i++) {
-      images[i] = new Image();
-      images[i].src = preload.arguments[i];
+   for (let i = 0; i < arguments.length; i++) {
+     images[i] = new Image();
+     images[i].src = preload.arguments[i];
    }
 }
-preload(
-   "slike/slika3.jpg",
-   "slike/slika4.jpg",
-)
+preload("slike/slika3.jpg", "slike/slika4.jpg")
 
 let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
 let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
@@ -100,6 +97,7 @@ function slajd() {
       slikeSrc2.reverse();
    }, 900);
 }
+
 let timer = setTimeout(function prikaziSlajd() {
    slajd()
    timer = setTimeout(prikaziSlajd, 7000)
