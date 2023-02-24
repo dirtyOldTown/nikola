@@ -69,19 +69,19 @@ navRegulator.addEventListener("click", () => {
       navRegulator.style.color = "#1B1B1B";
    }
 });
+
 var images = [];
 function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-        images[i] = new Image();
-        images[i].src = preload.arguments[i];
-    }
+   for (var i = 0; i < arguments.length; i++) {
+      images[i] = new Image();
+      images[i].src = preload.arguments[i];
+   }
 }
-
-//-- usage --//
 preload(
-    "slike/slika3.jpg",
-    "slike/slika4.jpg",
+   "slike/slika3.jpg",
+   "slike/slika4.jpg",
 )
+
 let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
 let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
 let slika1 = document.querySelector(".glava img:first-of-type");
