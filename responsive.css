@@ -107,6 +107,7 @@
     display: none;
   }
   .glava-text {
+    background-color: #b7a164;
     font-size: 1.2em;
     font-weight: 600;
     padding: 10px;
@@ -131,6 +132,7 @@
     font-size: 1.17em;
   }
   .int-prevoz, .gradska-međugradska {
+    background-color: #b7a164;
     font-size: 1.15em
   }
   .int-prevoz img, .gradska-međugradska img {
@@ -138,6 +140,7 @@
   }
   footer h4 {
     font-size: 1.05em;
+    color: #b7a164;
   }
   .footer-blok p:nth-of-type(1), .footer-blok p:nth-of-type(2) {
    text-align: center;
