@@ -80,32 +80,11 @@ function preload() {
 preload("slike/slika3.jpg", "slike/slika4.jpg")
 
 
-// slideshow
-/*document.onload = () => {
-   setTimeout(() => {
-      slika1.style.opacity = 0;
-      slika2.style.opacity = 0;
-      setTimeout(() => {
-         slika1.style.opacity = 0.9;
-         slika2.style.opacity = 09;
-      });
-   });
-}*/
-
 let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
 let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
 let slika1 = document.querySelector(".glava img:first-of-type");
 let slika2 = document.querySelector(".glava img:last-of-type");
-function slajdPocetni() {
-   slika1.style.opacity = 0;
-   slika2.style.opacity = 0;
-   setTimeout(() => {
-      slika1.style.opacity = 1;
-      slika2.style.opacity = 1;
-     
-   }, 200);
-}
-setTimeout(slajdPocetni)
+
 
 function slajd() {
    slika1.style.opacity = 0;
