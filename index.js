@@ -81,7 +81,7 @@ preload("slike/slika3.jpg", "slike/slika4.jpg")
 
 
 // slideshow
-document.onload = () => {
+/*document.onload = () => {
    setTimeout(() => {
       slika1.style.opacity = 0;
       slika2.style.opacity = 0;
@@ -90,7 +90,7 @@ document.onload = () => {
          slika2.style.opacity = 09;
       });
    });
-}
+}*/
 
 let slikeSrc = ["slike/slika2.jpg", "slike/slika3.jpg"];
 let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
