@@ -9,7 +9,6 @@ body {
   background-color:#C2B280;
   height:80px;
   display: flex;
-  justify-content: flex-end;
   align-items: flex-end;
 }
 .nav-mobilni {
@@ -244,7 +243,6 @@ footer {
 }
 #gore {
   font-size: 1.7em;
-  align-self: flex-end;
   margin-right: 20px;
 }
 #gore a {
