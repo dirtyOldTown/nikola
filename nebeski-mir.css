@@ -108,9 +108,6 @@ body {
   text-align: center;
   padding: 15px 0;
   font-weight: 600;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
 }
 .uvodne-reči {
@@ -120,7 +117,6 @@ body {
   text-align: center;
   font-style: normal;
   margin-top: 50px;
-  height: 200px
 }
 .uvodne-reči p  {
   margin-bottom: -10px;
@@ -133,10 +129,7 @@ body {
 }
 .usluge {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: max-content;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -175,9 +168,6 @@ body {
   background-color: #C2B280;
   padding: 5px 20px 10px 20px;
   font-size: 1.3em;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .int-prevoz h3, .gradska-međugradska h3 {
   font-size: 1.1em;
