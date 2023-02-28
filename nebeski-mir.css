@@ -9,14 +9,14 @@ body {
   background-color:#C2B280;
   height:80px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  /*justify-content: flex-end;
+  align-items: flex-end;*/
 }
 .nav-mobilni {
   background-color:#b7a164;
   height:70px;
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   align-items: center;
   font-size: 1.7em;
   font-weight: 600;
@@ -84,7 +84,7 @@ body {
 .glava {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   background-color: #1B1B1B;
   padding: 1.7% 0
 }
