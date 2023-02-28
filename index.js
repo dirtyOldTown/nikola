@@ -83,7 +83,7 @@ let slikeSrc2 = ["slike/slika1.jpg", "slike/slika4.jpg"];
 let slika1 = document.querySelector(".glava img:first-of-type");
 let slika2 = document.querySelector(".glava img:last-of-type");
 
-function slajdPocetni() {
+/*function slajdPocetni() {
    slika1.style.opacity = 0;
    slika2.style.opacity = 0;
    setTimeout(() => {
@@ -93,7 +93,7 @@ function slajdPocetni() {
       slika2.src = slikeSrc2[0];
    }, 190);
 }
-setTimeout(slajdPocetni)
+setTimeout(slajdPocetni)*/
 
 function slajd() {
    slika1.style.opacity = 0;
