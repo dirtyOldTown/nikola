@@ -247,6 +247,7 @@ footer {
 #gore {
   font-size: 1.7em;
   align-self: flex-end;
+  margin-right: 20px;
 }
 #gore a {
   color:#D4CC9A;
